@@ -24,12 +24,14 @@ import rectangle from 'assets/json/slideSettings/rectangle.json'
 import label from 'assets/json/slideSettings/label.json'
 import video from 'assets/json/slideSettings/video.json'
 import timer from 'assets/json/slideSettings/timer.json'
+import decoration3 from 'assets/json/slideSettings/decoration3.json'
 
 export enum SecondaryGraphTypes {
   Rectangle = 20,
   Label = 21,
   Video = 22,
-  Timer = 23
+  Timer = 23,
+  Decoration = 24
 }
 
 export enum GraphTypes {
@@ -44,5 +46,6 @@ export const slideSettings = {
   [SecondaryGraphTypes.Rectangle]: rectangle,
   [SecondaryGraphTypes.Label]: label,
   [SecondaryGraphTypes.Video]: video,
-  [SecondaryGraphTypes.Timer]: timer
+  [SecondaryGraphTypes.Timer]: timer,
+  [SecondaryGraphTypes.Decoration]: decoration3,
 }
